@@ -10,6 +10,31 @@
    - 15 días antes de la elección.
    - 7 días antes de la elección.
 
+#### Formulario para la información de los lideres de cada zona electoral
+
+- Formulario con la información de los lideres de cada zona electoral, con datos como:
+   - Nombre completo.
+   - Número de identificación oficial.
+   - Número de teléfono.
+   - Correo electrónico.
+   - Dirección.
+   - Zona electoral.
+   - Edad.
+   - Género.
+
+#### Información a recopilar del potencial electoral:
+- Formulario con la información de la persona con datos como:
+   - Nombre completo.
+   - Número de identificación oficial.
+   - Número de teléfono.
+   - Correo electrónico.
+   - Dirección.
+   - Zona electoral.
+   - Edad.
+   - Género.
+
+-
+
 
 ### Etapa 2: Validación de la información recopilada del potecial electoral
 
@@ -19,3 +44,8 @@
 
 - Tableros de resultados sobre información del potencial electoral, para saber si se cumplio con la metas establecidos.
 - Tableros con información de los E14, para saber el avance de cada uno de los E14, y cantidad de votos por cada zona.
+
+
+## Tareas a realizar etapa 1:
+- Crear un formulario para la información de los lideres de cada zona electoral.
+- Crear un formulario para la información del potencial electoral.
