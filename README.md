@@ -18,7 +18,11 @@
    - Número de teléfono.
    - Correo electrónico.
    - Dirección.
-   - Zona electoral.
+   - barrio.
+   - comuna.
+   - Zonas electorales.
+   - partido político.
+   - Candidato.
    - Edad.
    - Género.
 
@@ -51,8 +55,13 @@
   - lideres de cada zona electoral.
   - potencial electoral.
   - zonas
+  - paises
+  - departamentos
+  - municipios
   - E14
   - usuarios
   - permisos de la app
+  - partidos políticos
+  - candidatos
 - Crear un formulario para la información de los lideres de cada zona electoral.
 - Crear un formulario para la información del potencial electoral.
