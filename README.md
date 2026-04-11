@@ -47,5 +47,12 @@
 
 
 ## Tareas a realizar etapa 1:
+- Dibujar esquema para la base de datos:
+  - lideres de cada zona electoral.
+  - potencial electoral.
+  - zonas
+  - E14
+  - usuarios
+  - permisos de la app
 - Crear un formulario para la información de los lideres de cada zona electoral.
 - Crear un formulario para la información del potencial electoral.
