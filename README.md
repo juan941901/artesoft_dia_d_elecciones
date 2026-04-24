@@ -10,6 +10,12 @@
    - 15 días antes de la elección.
    - 7 días antes de la elección.
 
+#### Control del potencial electoral(metas)
+
+- metas por candito partido
+- metas por partido
+
+
 #### Formulario para la información de los lideres de cada zona electoral
 
 - Formulario con la información de los lideres de cada zona electoral, con datos como:

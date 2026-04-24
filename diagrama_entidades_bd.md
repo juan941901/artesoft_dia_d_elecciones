@@ -123,8 +123,9 @@ erDiagram
 
     CANDIDATO {
         int id PK
-        string nombre
+        int persona_id FK
         int partido_id FK
+        string numero_candidato
     }
 
     TELEFONO {
