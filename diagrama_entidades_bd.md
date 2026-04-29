@@ -87,6 +87,59 @@ erDiagram
         boolean es_principal
     }
 
+    COLABORADOR {
+        int id PK
+        int persona_id FK
+        int candidato_id FK
+        string rol
+    }
+
+    %% =========================
+    %% Relaciones metas votantes
+    %% =========================
+    COLABORADOR ||--o{ META : tiene_o_muchos
+    COLABORADOR ||--o{ REGISTRO_VOTANTE : tiene_o_m
+    CANDIDATO }o--o{ META_CANDIDATO : tiene_o_muchos
+    META_CANDIDATO }o--o{ CANDIDATO : tiene_o_muchos
+    REGISTRO_VOTANTE ||--o{ PERSONA : q
+    REGISTRO_VOTANTE ||--o{ ELECCION : en
+
+    %% =========================
+    %% Tablas control metas votantes
+    %% =========================
+
+    META {
+        int id PK
+        int colaborador_id FK
+        int cantidad_objetivo
+    }
+
+    REGISTRO_VOTANTE {
+        int id PK
+        int persona_id FK
+        int colaborador_id FK
+        int candidato_id FK
+        int eleccion_id FK
+        string tipo_registro "nuevo, confirmacion"
+        date fecha_registro
+        time hora_registro
+    }
+
+    META_CANDIDATO {
+        int id PK
+        int candidato_origen_id FK
+        int candidato_destino_id FK
+        int cantidad_objetivo
+    }
+
+    ELECCION {
+        int id PK
+        string nombre "Elecciones 2026"
+        date fecha
+        string tipo "Local,Nacional"
+        boolean activa
+    }
+
     %% =========================
     %% Relaciones geográficas   
     %% =========================
@@ -126,6 +179,11 @@ erDiagram
         string numero_mesa
     }
 
+    PERSONA_MESA {
+        int persona_id FK
+        int mesa_id FK
+    }
+
 
     %% =========================
     %% Tablas geográficas
@@ -146,22 +204,6 @@ erDiagram
     PAIS {
         int id PK
         string nombre
-    }
-
-  
-
- %% =========================   
-
-    COLABORADOR {
-        int id PK
-        int persona_id FK
-        int candidato_id FK
-        string rol
-    }
-
-    PERSONA_MESA {
-        int persona_id FK
-        int mesa_id FK
     }
 
     %% =========================
