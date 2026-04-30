@@ -6,14 +6,20 @@
 
 - Recopilación de la información del potecial electoral para toma de decisiones, estos puedes ser varios cortes de información( cuatro cortes de información), los cortes pueden a:
    - 60 días antes de la elección.
+     - Informe potencial electoral por lider, candidato, partido, alerta por ubicacion de potencial electoral fuera de zona o comuna de residencia.
    - 30 días antes de la elección.
+     - Informe potencial electoral por lider, candidato, partido, alerta por ubicacion de potencial electoral fuera de zona o comuna de residencia.
    - 15 días antes de la elección.
+     - Informe potencial electoral por lider, candidato, partido, alerta por ubicacion de potencial electoral fuera de zona o comuna de residencia, informacion que permita definir plan de acción para la población alejada de las rutas viables en la jornada electoral.
    - 7 días antes de la elección.
+     - Informe potencial electoral por lider, candidato, partido, alerta por ubicacion de potencial electoral fuera de zona o comuna de residencia.
 
 #### Control del potencial electoral(metas)
 
-- metas por candito partido
 - metas por partido
+- metas por candidato/partido
+- Información por líder
+- Graficos por comuna y barrios en el municipio
 
 
 #### Formulario para la información de los lideres de cada zona electoral
@@ -26,11 +32,14 @@
    - Dirección.
    - barrio.
    - comuna.
-   - Zonas electorales.
+   - (Zonas electorales.)
    - partido político.
    - Candidato.
    - Edad.
    - Género.
+   - Lugar de votación.
+   - Mesa.
+
 
 #### Información a recopilar del potencial electoral:
 - Formulario con la información de la persona con datos como:
@@ -42,11 +51,13 @@
    - Zona electoral.
    - Edad.
    - Género.
+   - Lugar de votación.
+   - Mesa.
 
 -
 
 
-### Etapa 2: Validación de la información recopilada del potecial electoral
+### Etapa 2: Validación de la información recopilada del potecial electoral (corresponde al envio del certificado electoral por el votante)
 
 - Validar la información del potencial electoral se este cumpliendo con la meta establecida, esto con el fin de toma de decisiones para ajustar y cumplir meta.
 
